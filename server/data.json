@@ -1,0 +1,79 @@
+{
+  "venue": "The Glasshouse, London",
+  "period": "1\u201331 October 2026",
+  "demo": true,
+  "zones": [
+    {
+      "id": "0",
+      "name": "Main hall",
+      "visits": 8420,
+      "revenue": 52480,
+      "cost": 28700,
+      "profit": 23780,
+      "dwell": 28.4,
+      "status": "Performing well"
+    },
+    {
+      "id": "1",
+      "name": "The terrace",
+      "visits": 4360,
+      "revenue": 28350,
+      "cost": 14900,
+      "profit": 13450,
+      "dwell": 32.1,
+      "status": "Performing well"
+    },
+    {
+      "id": "2",
+      "name": "Garden bar",
+      "visits": 3890,
+      "revenue": 24760,
+      "cost": 12800,
+      "profit": 11960,
+      "dwell": 30.8,
+      "status": "Performing well"
+    },
+    {
+      "id": "3",
+      "name": "Gallery lounge",
+      "visits": 2170,
+      "revenue": 9680,
+      "cost": 11250,
+      "profit": -1570,
+      "dwell": 38.5,
+      "status": "Needs attention"
+    }
+  ],
+  "events": [
+    {
+      "id": "0",
+      "name": "Late Sessions",
+      "date": "24 Oct \u00b7 Main hall",
+      "visits": 1120,
+      "revenue": 13840,
+      "cost": 6400,
+      "category": "Evening music",
+      "day": "24"
+    },
+    {
+      "id": "1",
+      "name": "Garden Social",
+      "date": "17 Oct \u00b7 Terrace & garden",
+      "visits": 860,
+      "revenue": 9460,
+      "cost": 5200,
+      "category": "Food & drink",
+      "day": "17"
+    },
+    {
+      "id": "2",
+      "name": "Art After Hours",
+      "date": "10 Oct \u00b7 Gallery lounge",
+      "visits": 420,
+      "revenue": 3780,
+      "cost": 4150,
+      "category": "Exhibition",
+      "day": "10"
+    }
+  ]
+}
