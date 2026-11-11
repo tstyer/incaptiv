@@ -36,7 +36,7 @@ export default function MoreScreen({
 }) {
   return (
     <Page>
-      <Title>Extras</Title>
+      <Title>Helpful Extras.</Title>
       <Copy>Explore the detail, or manage your venue.</Copy>
       {[
         ["Revenue", "Revenue intelligence"],

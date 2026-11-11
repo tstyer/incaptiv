@@ -37,7 +37,7 @@ export default function ZonesScreen({
   const [filter, setFilter] = useState("All");
   return (
     <Page>
-      <Title>Zones.</Title>
+      <Title>Your Zones.</Title>
       <Copy>Revenue, activity and operating profit across your venue.</Copy>
       <View style={{ flexDirection: "row", gap: 6, flexWrap: "wrap" }}>
         {["All", "Profitable", "Needs attention"].map((x) => (
