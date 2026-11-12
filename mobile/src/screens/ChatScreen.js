@@ -77,8 +77,7 @@ export default function ChatScreen({
         {!messages.length ? (
           <>
             <Title>
-              Your venue has answers.<br/>
-              Just ask.
+              {'Your venue has answers.\nJust ask.'}
             </Title>
             {composer}
             <Copy>
