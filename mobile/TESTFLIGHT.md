@@ -11,4 +11,6 @@ The mobile app uses its bundled October sample records and answers demo chat que
 5. Run `npx eas-cli submit --platform ios --profile production --latest`. Follow the prompts to select or create the matching App Store Connect app.
 6. In App Store Connect, complete the required TestFlight information and add internal testers. External testing may require Apple's beta review.
 
-The Expo account, Apple account, signing credentials, App Store Connect record and TestFlight upload must be completed by someone with access to those accounts. This configuration prepares a store distribution build; no build has been uploaded yet.
+If submission reports **Increment Build Number**, the latest build has a number Apple already used for version `1.0.0`. From `mobile`, run step 4 again and wait for the new build to finish, then run step 5. `submit --latest` selects an existing build; it does not create one or increment its number. With the current local version source and production `autoIncrement`, a build starting from `ios.buildNumber: "6"` should use build number 7. Check the build details before submitting and keep the updated `app.json` so the next build starts from the new number.
+
+The Expo account, Apple account, signing credentials, App Store Connect record and TestFlight upload must be completed by someone with access to those accounts.
